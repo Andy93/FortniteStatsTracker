@@ -24,7 +24,7 @@ export default class RequestUserStats extends React.Component {
   }
 
   render() {
-    const { data, overallData, defaultModes } = this.state;
+    const { data, defaultModes } = this.state;
     return (
       <div>
         {data.epicName && <p>Epic Name : {data.epicName}</p>}
