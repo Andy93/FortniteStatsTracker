@@ -1,3 +1,5 @@
+https://fortnitestats.netlify.com/
+
 Using React as UI Framework
 
 Axios for fetch requests
