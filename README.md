@@ -2,7 +2,7 @@ Using React as UI Framework
 Axios for fetch requests
 https://fortniteapi.com/ for data
 
-
+![](fortnite.gif)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
