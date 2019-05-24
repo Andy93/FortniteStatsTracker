@@ -28,11 +28,15 @@ export default class RequestUserStats extends React.Component {
     return (
       <div>
         {data.epicName && <p>Epic Name : {data.epicName}</p>}
-        <ul>
-          {defaultModes.placetop1 && <li>Wins : {defaultModes.placetop1}</li>}
-          {defaultModes.kills && <li>Kills : {defaultModes.kills}</li>}
-          {defaultModes.matchesplayed && <li>Matches Played : {defaultModes.matchesplayed}</li>}
-        </ul>
+        {defaultModes.matchesplayed ?
+          <ul>
+            {defaultModes.placetop1 && <li>Wins : {defaultModes.placetop1}</li>}
+            {defaultModes.kills && <li>Kills : {defaultModes.kills}</li>}
+            {defaultModes.matchesplayed && <li>Matches Played : {defaultModes.matchesplayed}</li>}
+          </ul>
+          :
+          <p>NO DATA AVAILABLE ON PC</p>
+      }
       </div>
     )
   }
