@@ -1,0 +1,60 @@
+@import url(//db.onlinewebfonts.com/c/cdc8c3de1e6bd5a9a67c6a001f9fedd0?family=Burbank+Big+Condensed);
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+}
+
+.App-header {
+  background-color: #f4ecec;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-family:'Burbank Big Condensed';
+}
+
+input {
+  font-size: 20px;
+  font-family: 'Burbank Big Condensed';
+}
+
+input[type=text]{
+  width: 250px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+
+input[type=submit] {
+  width: 130px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+@font-face {font-family: "Burbank Big Condensed";
+    src: url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.eot");
+    src: url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.svg#Burbank Big Condensed") format("svg");
+}
