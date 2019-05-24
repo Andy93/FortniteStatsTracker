@@ -1,5 +1,7 @@
 Using React as UI Framework
+
 Axios for fetch requests
+
 https://fortniteapi.com/ for data
 
 ![](fortnite.gif)
